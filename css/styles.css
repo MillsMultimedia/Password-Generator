@@ -1,0 +1,56 @@
+body {
+	background: url('../img/space.jpg') no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	color: #fff;
+}
+
+#wrapper {
+	background-image: url("../img/bkg.png");
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+h1 {
+	color: #ffd800;
+	opacity: 1;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+#instructions {
+	margin: .5em 0 1.5em 0;
+}
+
+#password {
+	padding: 1em;
+	border-radius: 10px;
+	border: 1px solid #ffd800;
+	background-color: #000;
+	color: #ffd800;
+}
+
+#submit {
+	background-color: #ffd800;
+	color: #000;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+#submit:hover {
+	border: 1px solid #ffd800;
+	background-color: #000;
+	color: #ffd800;
+}
+
+.form-group {
+	margin: 2em 0;
+}
+
